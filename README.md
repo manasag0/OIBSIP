@@ -8,8 +8,8 @@ task 1:
    technologies and tools:
    ViteReact, TailwindCSS
 
-
 task 2:
 
 2. Tribute Page 
     Technologies and tools: ViteReact, TailwindCSS, ReactIcons
+
