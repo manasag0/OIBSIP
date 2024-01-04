@@ -40,7 +40,7 @@ const Calculator = () => {
     };
     return (
         <div>
-            <h1 className='text-center text-3xl'>Calculator</h1>
+            <h1 className='text-center text-5xl font-bold'>Calculator</h1>
             <div className= 'flex flex-col  p-2 h-[520px] w-[400px] bg-green-400/50 rounded-lg sm:w-[100%] md:w-[450px]  sm:h-[100%]'>
                 
              
