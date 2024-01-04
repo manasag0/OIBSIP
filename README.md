@@ -1,2 +1,4 @@
 # OIBSIP
-Complete MERN stack with auths and JWT 
+Level 2
+task 1:
+1. Calculator with react tailwind with keyboard access.
