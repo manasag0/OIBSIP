@@ -13,3 +13,8 @@ task 2:
 2. Tribute Page 
     Technologies and tools: ViteReact, TailwindCSS, ReactIcons
 
+task 3:
+
+3. React Todo App
+   technologies Reactm, TailwindCSS, ReactIcons
+
