@@ -99,7 +99,7 @@ const Signup = () => {
                                 onChange={(e) => setPassword(e.target.value)}
                             />
                             {!isPasswordValid() && (
-                                <p className="text-sm text-red-500">Password must be at least 6 characters, include one symbol, and one number.</p>
+                                <p className="text-sm text-red-500">Password must be at least 8 characters, include one symbol, and one number.</p>
                             )}
                         </div>
                         <div className="mb-4">
