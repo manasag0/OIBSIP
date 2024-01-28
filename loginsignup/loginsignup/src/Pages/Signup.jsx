@@ -13,8 +13,9 @@ const Signup = () => {
     const [isSignupSuccess, setIsSignupSuccess] = useState(false); // New state for signup success
 
     const isPasswordValid = () => {
-        // Password validation logic if needed
-        return true; // You can modify this according to your requirements
+        // Password conditions: one uppercase, one symbol, at least 8 characters, and a number
+        const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[0-9]).{8,}$/;
+        return passwordRegex.test(password);
     };
 
     const isFormValid = () => {
@@ -41,8 +42,6 @@ const Signup = () => {
         } catch (error) {
 
             console.error('Error registering user:', error.response ? error.response.data : error.message);
-            //alert the message
-            alert("Mail id has used already, go to login!!");
         }
     };
 
